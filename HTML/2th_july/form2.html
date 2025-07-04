@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form Element</h2>
+    <form action="./signup.html">
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+
+        <label for="courses">Courses:</label>
+        <select name="course" id="courses">
+            <option value="none">select option</option>
+            <option value="FSD">Full Stack Development</option>
+            <option value="DS">Data  Science</option>
+            <option value="ML">Mechine Learning</option>
+        </select>
+        <br><br>
+        <label>Sports:</label>
+        <br>
+        <input list="sports" name="sport" placeholder="select">
+        <datalist id="sports">
+            <option value="cricket"></option>
+            <option value="hocky"></option>
+            <option value="tennis"></option>
+            <option value="badmintan"></option>
+            <option value="volleyball"></option>
+            <option value="Baseball"></option>
+            <option value="Football"></option>
+        </datalist>
+        <br><br>
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="30" placeholder="write address in 30 words" required></textarea>
+        <br><br>
+        <button value="submit">Register</button>
+    </form>
+</body>
+</html>
