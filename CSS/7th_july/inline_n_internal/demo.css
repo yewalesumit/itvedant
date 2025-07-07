@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(222, 219, 217);
+}
+
+.main {
+    text-shadow: 5px 5px 5px lime;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    border: 2px solid  black;
+}
+
+.main {
+    box-shadow: 3px 3px 4px 4px gray;
+    border: 2px solid black;
+}
