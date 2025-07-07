@@ -14,3 +14,50 @@ body {
     box-shadow: 3px 3px 4px 4px gray;
     border: 2px solid black;
 }
+
+.a {
+    width: 100%;
+    /* background-color: white;     */
+}
+
+.A {
+    width: 250px;
+    height: auto;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: aliceblue;
+    
+}
+
+.A img {
+    width: 30%;
+    height: 25%;
+    margin: 3% 25% 0% 35%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 2px black;    
+}
+.A h3{
+    text-align: center;
+}
+
+.A p{
+    margin: 0px 10px;
+} 
+
+.new {
+    margin: 10px;
+    width: 3%;
+    height: auto;
+    padding: 20px 10px;
+    border: 2px solid red;
+    border-bottom-left-radius: 10px;
+    background-color: red;
+    color: white;
+    /* position: relative;
+    top: 10px;
+    left: 10%; */
+    position: absolute;
+    top: 103px;
+    right: 1237px;
+
+}
