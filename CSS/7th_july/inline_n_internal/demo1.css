@@ -112,7 +112,7 @@ body {
 }
 
 .A {
-    background: linear-gradient(to bottom, #ccc, #888, #444);
+    background: linear-gradient(to top, #ccc 0%, #888 50%, #444 100%);
 
 }
 
