@@ -88,6 +88,8 @@ body {
     margin-left: 2%;
     margin-right: 1%;
     display: inline-block;
+    position: relative;
+    bottom: 87px;
 
 }
 
@@ -98,6 +100,8 @@ body {
     margin-left: 2%;
     margin-right: 1%;
     display: inline-block;
+    /* position: relative;
+    bottom: 98px; */
     
 }
 
@@ -106,3 +110,9 @@ body {
     height: 100%;
     
 }
+
+.A {
+    background: linear-gradient(to bottom, #ccc, #888, #444);
+
+}
+
