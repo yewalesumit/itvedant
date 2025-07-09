@@ -63,6 +63,9 @@ a{
     border: 2px solid black;
     margin-bottom: 1%;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .execution .ex2{
@@ -71,4 +74,25 @@ a{
     border: 2px solid black;
     margin-bottom: 1%;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
 }
+
+.ch {
+    width: 10%;
+    height: 90px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+ .ch img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .ch:hover{
+    /* flex-grow: 0.5; */
+    flex-shrink: 3;
+    width: 5%;
+ }
