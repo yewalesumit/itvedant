@@ -93,6 +93,18 @@ a{
 
  .ch:hover{
     /* flex-grow: 0.5; */
-    flex-shrink: 3;
+    /* flex-shrink: 3;
+    width: 5%; */
+    /* flex-basis: 20%; */
+    /* align-self: center;
     width: 5%;
+    height: 45%; */
+    /* align-self: flex-start;
+    width: 5%;
+    height: 45%;
+    margin-top: 1%; */
+    align-self: flex-end;
+    width: 5%;
+    height: 45%;
+    margin-bottom: 1%;
  }
