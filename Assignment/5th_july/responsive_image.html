@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+    <style>
+        .container {
+            width: 100%;
+            height: auto;
+            margin: 0%;
+        }
+
+        .container img {
+            height: 591px;
+            width: 778px;
+            max-width: 700px;
+        }
+
+        .mobile-img {
+            display: none;
+        }
+
+        /* Below 700px: hide desktop image, show mobile image */
+        @media screen and (max-width: 700px) {
+            .desktop-img {
+                display: none;
+            }
+
+            .mobile-img {
+                display: inline;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="desktop-img" src="https://th.bing.com/th/id/OIP.2SXwxQE6dgxLMibRA6t_rwHaF7?w=238&h=190&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+            alt="Headphone Image">
+
+        <img class="mobile-img" src="https://th.bing.com/th/id/OIP.nP23fEVP3cZ-XlATllO4ngHaHa?w=202&h=202&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+            alt="Headphone Image">
+    </div>
+</body>
+
+</html>
