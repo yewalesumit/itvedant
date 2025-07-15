@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../9th_july/nav.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        video{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            overflow: hidden;
+            z-index: -1;
+            object-fit: cover;
+            filter: blur(0px) brightness(70%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <video src="./sp.mp4" autoplay loop muted></video>
+    <nav style="height: 35px;">
+        <a href="#" class="logo">Space</a>
+        <ul type="none">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="child">
+            <h1 style="color: white;">Galaxy</h1>
+            <button style="background-color:black; color: white;">EXPLORE</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
