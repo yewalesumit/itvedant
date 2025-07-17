@@ -63,8 +63,64 @@ video {
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    
 }
 
-.span:hover {
-    color: purple;
+/* Psuedo Class */
+
+.heading p a:link{
+    color: yellow;
 }
+
+.heading p a:hover{
+    color: red;
+    cursor: pointer;  
+}
+.heading p a:active{
+    color: green;
+}
+
+/* .heading p a:visited{
+    color: pink;
+} */
+
+.div2 .img:first-child{
+    box-shadow: 0px 6px 30px -3px rgba(255,255,255,1);
+}
+
+.div2 .img:last-child{
+    box-shadow: 0px 6px 30px -3px rgba(255,255,255,1);
+}
+
+.div2 .img:nth-child(2){
+    box-shadow: 0px 6px 30px -3px rgba(255,255,255,1);
+}
+
+
+/* Pseudo Element */
+
+.div1 h1::first-letter{
+    color: #C3028F;
+}
+
+.div1 p::first-line{
+    color: aqua;
+}
+
+.div1 p::selection{
+    color: black;
+    background-color: white;
+}
+
+.div1 p{
+    position: relative;
+}
+
+.div1 p::before{
+    content: 'Hello';
+    height: 20px;
+    width: 30px;
+    background-color: blue;
+    color: red;
+}
+

@@ -1,0 +1,42 @@
+body {
+    /* background-color: lightblue; */
+    background-image: url('https://tse4.mm.bing.net/th/id/OIP.Od0-pT7pGk9nwDdsmcMGEAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: navy;
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-image: url('https://tse2.mm.bing.net/th/id/OIP.yHHpb6biTmaaPBrmmBYV0wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 34px;
+        color: white;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:401px) {
+    body {
+        background-image: url('https://tse3.mm.bing.net/th/id/OIP.1-tWzofJXQq-jvtrMl8b_AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 34px;
+        color: blue;
+    }
+}
