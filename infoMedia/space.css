@@ -1,0 +1,311 @@
+   body {
+       background-image: url('https://th.bing.com/th/id/R.377963b7bad601b4f2a5c7615c96f5af?rik=tt%2f9cyvTXFVKZw&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2f4k-galaxy-space-i9.jpg&ehk=RtVl%2fOme7Xo4rDcCRTatj7%2b1DfRDO8CFHZbrj9hxZz4%3d&risl=1&pid=ImgRaw&r=0');
+       background-color: black;
+       background-size: cover;
+       
+   }
+
+   nav {
+       margin: 5px 2%;
+       width: 92%;
+       padding: 7px 2%;
+       background-color: rgb(241, 234, 234);
+       /* position: absolute;
+    top: 0%;
+    left: 0%; */
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       border: 2px solid white;
+   }
+
+   nav ul li {
+
+       display: inline-block;
+       margin-right: 13px;
+   }
+
+   a {
+       text-decoration: none;
+   }
+
+   .container {
+       margin: 5px 2%;
+       width: 92%;
+       padding: 7px 2%;
+       height: 350px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border: 2px solid white;
+       flex-direction: column;
+   }
+
+   .container h1 {
+       color: white;
+       /* font-size: 50px; */
+   }
+
+   .child {
+
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+   .child button {
+
+       height: 25px;
+       border-radius: 20px
+   }
+
+   .exebition {
+       margin: 5px 2%;
+       width: 92%;
+       padding: 7px 2%;
+       height: 300px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border: 2px solid white;
+       flex-direction: column;
+
+   }
+
+   .exebition h3 {
+       color: white;
+   }
+
+   .exebition .ex1 {
+       width: 50%;
+       height: 100px;
+       border: 2px solid white;
+       margin-bottom: 1%;
+       border-radius: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .exebition .ex2 {
+       width: 60%;
+       height: 100px;
+       border: 2px solid white;
+       margin-top: 1%;
+       border-radius: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+   }
+
+   .ex2 .ch {
+       width: 10%;
+       height: 90px;
+       border: 2px solid white;
+       border-radius: 7px;
+       overflow: hidden;
+   }
+
+   .ch:hover {
+       /* flex-grow: 0.5; */
+       /* flex-shrink: 3; */
+       /* width: 5%;
+   flex-basis: 20%; */
+       /* align-self:center ; */
+       align-self: flex-start;
+       width: 5%;
+       height: 45%;
+       margin-top: 1%;
+
+       /* align-self: flex-end; */
+       width: 5%;
+       height: 45%;
+       margin-bottom: 1%;
+
+   }
+
+   .ex2 .ch img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+
+
+
+   .ifr,
+   .map {
+
+       margin: 5px 2%;
+       width: 92%;
+       padding: 7px 2%;
+       height: 300px;
+       border: 2px solid white;
+
+   }
+
+   .ifr iframe {
+       width: 98%;
+       height: 90%;
+       /* margin: 5%; */
+   }
+
+   .map {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .video,
+   .m {
+       width: 49%;
+       height: 100%;
+
+   }
+
+   .video {
+       display: grid;
+       gap: 2%;
+       grid-template-columns: 49% 49%;
+       grid-template-rows: 49% 49%;
+   }
+
+   .video iframe {
+
+       width: 100%;
+       height: 100%;
+       border-radius: 10px;
+   }
+
+   .m iframe {
+       margin: 1% 1% 2% 1%;
+       width: 98%;
+       height: 98%;
+       border: 1px solid white;
+   }
+
+   video {
+       position: absolute;
+       top: 0%;
+       left: 0%;
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+       z-index: -1;
+       object-fit: cover;
+       filter: blur(0px) brightness(70%);
+   }
+
+   .container1 {
+       margin: 5px 2%;
+       width: 92%;
+       padding: 7px 2%;
+       height: 350px;
+       display: flex;
+       justify-content: space-between;
+       border: 2px solid rgb(186, 70, 176);
+       flex-direction: row;
+       border-radius: 10px;
+       background-color: grey;
+   }
+
+   .para {
+       width: 49%;
+       height: 100%;
+       /* padding: 2%; */
+       border: 2px solid white;
+       color: white;
+   }
+
+   h1 {
+       color: white;
+       margin-left: 2%;
+       margin-top: 16vh;
+   }
+
+   .para p {
+
+       margin: 2%;
+       color: white;
+   }
+
+   .imgs {
+       width: 49%;
+       height: 100%;
+       border: 2px solid white;
+       display: grid;
+       gap: 1%;
+       grid-template-columns: auto auto;
+       grid-template-rows: 49% 49%;
+
+   }
+
+   .im img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       border-radius: 20px;
+
+   }
+
+   /* pseudo code */
+
+   .para p a:link {
+       color: yellow;
+
+   }
+
+   .para p a:hover {
+       color: red;
+
+   }
+
+   .para p a:active {
+       color: lime;
+   }
+
+   /* .para p a:visited{
+    color:purple;
+    } */
+
+   .para {
+       box-shadow: 0px 6px 30px -3px red;
+   }
+
+   .imgs .im:last-child {
+       box-shadow: 2px 2px 5px 2px white;
+   }
+
+   .imgs .im:nth-child(2) {
+       box-shadow: 2px 2px 5px 2px white;
+   }
+
+   .imgs .im:first-child {
+       box-shadow: 2px 2px 5px 2px white;
+   }
+
+   /* pseudo element */
+   .para h1::first-letter {
+       color: rgb(216, 36, 66)
+   }
+
+   .para p::first-line {
+       color: aqua
+   }
+
+   .para p::selection {
+       color: blueviolet;
+       background-color: black;
+   }
+
+   /*pseudo before after */
+
+   .para {
+       position: relative;
+   }
+
+   .para p::before {
+       content: 'HELLO';
+       width: 30PX;
+       height: 30px;
+       color: blanchedalmond;
+       background-color: black;
+   }
