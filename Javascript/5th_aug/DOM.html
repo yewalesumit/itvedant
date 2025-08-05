@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM in JS</title>
+    <style>
+        h1,p{
+            text-align: center;
+        }
+        p{
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to  Mysite</h1>
+    <p id="thisone">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptates soluta ut unde vel, quae facilis maxime quod a quo cum harum. Vitae facilis culpa ullam quae perspiciatis nemo deleniti?</p>
+    <h1>Second H1</h1>
+
+    <div class="query">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusamus molestiae culpa beatae perferendis rerum exercitationem a totam sapiente, animi molestias, quia, saepe minima modi natus fugiat blanditiis consequuntur vero!</div>
+
+    <p class="para">Paragraph 1</p>
+    <p class="para">Paragraph 2</p>
+    <p class="para">Paragraph 3</p>
+
+
+    <button id="btn1" onclick="alert('hello..!!')">Click me!</button>
+
+    <h1>HTML From javaScript..!</h1>
+
+    <p class="highlight">This is paragraph with class</p>
+    <p>This is a paragraph without the class</p>
+
+
+    <script>
+        var elt = document.getElementById('thisone');
+        elt.style.color='blue';
+
+        var heading =  document.getElementsByTagName('h1');
+        heading[1].style.backgroundColor='blue';
+
+        var que = document.querySelector('.query');
+        que.style.fontSize='40px'
+
+        var vars = document.querySelectorAll('.para');
+        vars.forEach(items =>{
+            items.style.backgroundColor='red';
+            items.style.color='white';
+            items.style.textAlign='center';                    
+        }) 
+
+        var btn = document.querySelector("#btn1");
+        btn.style.display="block";
+        btn.style.margin='auto';
+
+        const elements = document.getElementsByClassName('highlight');
+        elements[0].style.color='red';
+
+
+        
+</script>
+<!-- <script src="./dom.js"></script> -->
+</body>
+</html>

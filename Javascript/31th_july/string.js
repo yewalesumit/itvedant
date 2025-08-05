@@ -24,5 +24,4 @@
 // let text ="Hello,World!"
 // console.log(text.includes("Wo"));
 
-const text = new String("hello,World!");
-console.log(text.valueOf());
+
