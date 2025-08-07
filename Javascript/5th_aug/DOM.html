@@ -32,6 +32,8 @@
     <p class="highlight">This is paragraph with class</p>
     <p>This is a paragraph without the class</p>
 
+    <input type="text" name="username" value="JohnDoe">
+
 
     <script>
         var elt = document.getElementById('thisone');
@@ -57,6 +59,10 @@
         const elements = document.getElementsByClassName('highlight');
         elements[0].style.color='red';
 
+        const inp = document.getElementsByName('username')[0];
+        console.log(inp);
+        inp.style.textAlign='center';
+        
 
         
 </script>

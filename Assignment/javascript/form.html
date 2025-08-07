@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>document</title>
+</head>
+<body>
+
+  <h2>User Form</h2>
+  <form id="userForm">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname"><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    document.getElementById("userForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      let firstName = document.getElementById("fname").value;
+      let lastName = document.getElementById("lname").value;
+
+      console.log("First Name:", firstName);
+      console.log("Last Name:", lastName);
+    });
+  </script>
+
+</body>
+</html>
