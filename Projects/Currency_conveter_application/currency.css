@@ -1,0 +1,35 @@
+body {
+    background-color: #49494b;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.conveter {
+    background-color: #0b0b0c;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow:0 0 10px #e0dddd;
+    width: 320px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 54;
+}
