@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "img":"https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/243459_0_cvj2b5.png?tr=w-600",
+            "id": 1,
+            "name": "iPhone 14",
+            "price": 120000,
+            "category": "mobile",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere obcaecati reprehenderit ea blanditiis amet doloribus quis, earum provident ducimus dicta debitis voluptatem fugiat dolor repudiandae cupiditate perferendis perspiciatis. Animi."
+        },
+        {
+            "img":"https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/243459_0_cvj2b5.png?tr=w-600",      
+            "id": 2,
+            "name": "Samsung S23 Ultra",
+            "price": 124000,
+            "category": "mobile",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere obcaecati reprehenderit ea blanditiis amet doloribus quis, earum provident ducimus dicta debitis voluptatem fugiat dolor repudiandae cupiditate perferendis perspiciatis. Animi."
+        },
+        {
+            "img":"https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/243459_0_cvj2b5.png?tr=w-600",      
+            "id": 3,
+            "name": "LG TV",
+            "price": 24000,
+            "category": "tv",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere obcaecati reprehenderit ea blanditiis amet doloribus quis, earum provident ducimus dicta debitis voluptatem fugiat dolor repudiandae cupiditate perferendis perspiciatis. Animi."
+        },
+        {
+            "img":"https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/243459_0_cvj2b5.png?tr=w-600",      
+            "id": 4,
+            "name": "iWatch",
+            "price": 30000,
+            "category": "watch",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere obcaecati reprehenderit ea blanditiis amet doloribus quis, earum provident ducimus dicta debitis voluptatem fugiat dolor repudiandae cupiditate perferendis perspiciatis. Animi."
+        },
+        {
+            "img":"https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/243459_0_cvj2b5.png?tr=w-600",      
+            "id": 5,
+            "name": "Samsung Washing Machine",
+            "price": 35000,
+            "category": "washing_machine",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facere obcaecati reprehenderit ea blanditiis amet doloribus quis, earum provident ducimus dicta debitis voluptatem fugiat dolor repudiandae cupiditate perferendis perspiciatis. Animi."
+        }
+    ]
+}
