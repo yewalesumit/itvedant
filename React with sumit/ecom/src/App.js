@@ -3,11 +3,12 @@ import { useEffect, useState } from "react";
 function App(){
     const [products,setProducts] = useState([]);
     const [cnt,setCnt] = useState(0);
+
     useEffect(()=>{
         fetch('http://localhost:3000/products')
         .then(res=>res.json())
         .then(res1=>setProducts(res1))
-    },[])
+    },[cnt])
 
     // const data = () =>{
     //     fetch('http://localhost:3000/products')

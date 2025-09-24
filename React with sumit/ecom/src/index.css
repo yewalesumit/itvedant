@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card1{
+  float: left;
+  margin: 5px;
+  margin-top: 10px;
+
+}
+
+.img1{
+  height: 300px;
+  width: 15px;
+}
+
+#btn1{
+  margin-left: 28%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.b1{
+  width:auto;
+  margin: 10px;
+}
+
+.c{
+  margin-left: 12%;
+}
