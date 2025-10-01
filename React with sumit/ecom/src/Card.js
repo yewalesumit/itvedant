@@ -1,5 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/img-redundant-alt */
+import { Link } from "react-router-dom";
 
 
 
@@ -15,6 +14,7 @@ function Card(props) {
           <p className="card-text">{props.category}</p>
           <p className="card-text">₹ {props.price} </p>
           <a href="#" className="btn btn-primary">Add to cart</a>
+          <Link to={`/product/${props.id}`}>readmore</Link>
         </div>
       </div>
     </>

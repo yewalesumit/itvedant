@@ -18,7 +18,7 @@ function App1() {
     //     .then(res1=>setProducts(res1))
     // },[url])
 
-    console.log(products);
+    // console.log(products);
     
   return (
     <>
@@ -31,11 +31,13 @@ function App1() {
 
 
     </div>
+    
     {
         
         loading && <><div className="spinner-border"></div><span>Loading...</span></>
     }
-    <div className='c'><Cardlist products1 = {products} /></div>
+    <div className='c'>
+    <Cardlist products1 = {products} /></div>
     </>
   )
 }
